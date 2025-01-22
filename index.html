@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <title>
+    💍Ю && А💍
+  </title>
+</head>
+<body>
+  <section class="section section-1">
+    <div class="container">
+      <div class="texts">
+        <p class="section__text text-m">
+          Я люблю тебя. Хочу быть с тобою до конца своих дней. Ты выйдешь за меня ?
+        </p>
+        <p class="section__text text-w">
+          Ооо, как неожиданно ... Да Согласна ! &#128517;&#128522;
+        </p>
+        <p class="section__text text-o">
+          &#128073;&#128076;
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-2">
+    <div class="container">
+      <p class="section__text">
+        Оу да, теперь новый этап в нашей жизни. С чего начнём ?
+      </p>
+    </div>
+  </section>
+
+  <section class="section section-3">
+    <div class="container">
+      <p class="section__text">
+        Начнём с этой бани, а дальше нас ждут приключения ...
+      </p>
+    </div>
+  </section>
+
+  <section class="section section-4">
+    <div class="container">
+      <p class="section__text">
+        Начнём с приятного &#128073;&#128076;
+      </p>
+    </div>
+  </section>
+
+  <section class="section section-5">
+    <div class="container">
+      <p class="section__text">
+        Узнаете друг друга получше
+      </p>
+    </div>
+  </section>
+
+  <section class="section section-6">
+    <div class="container">
+      <p class="section__text">
+        Интересные ссоры, которые выглядят как то так
+      </p>
+    </div>
+  </section>
+
+  <section class="section section-7">
+    <div class="container">
+      <p class="section__text">
+        Момент, когда недооценил её и сказал, а ну как пробей прессак
+      </p>
+    </div>
+  </section>
+
+  <section class="section section-8">
+    <div class="container">
+      <p class="section__text">
+        Поехать на природу, отдохнуть и поесть вкусной еды
+      </p>
+    </div>
+  </section>
+
+  <section class="section section-9">
+    <div class="container">
+      <p class="section__text">
+        Веселая бытовуха, уверен ты повеселишься
+      </p>
+    </div>
+  </section>
+
+  <section class="section section-10">
+    <div class="container">
+      <p class="section__text">
+        Ну и как же без самого важного - личное пространство и время для отдыха
+      </p>
+    </div>
+  </section>
+
+  <section class="section section-11">
+    <div class="container">
+      <p class="section__text">
+        А вообще этот чувак тебя любит, ценит и уважает. Ни разу плохого не сказал. По началу даже стеснялся немного, ну это я так понял &#128517;
+      </p>
+    </div>
+  </section>
+
+  <section class="section section-12">
+    <div class="container">
+      <p class="section__text">
+        Любви, счастья и уюта вам ! Отныне я удаляюсь по важным делам &#128694;
+      </p>
+    </div>
+  </section>
+
+  <script>
+    const section_one = document.querySelector('.section-1')
+    const section_four = document.querySelector('.section-4')
+    const section_ten = document.querySelector('.section-10')
+    let section_one_counter = 0;
+    if(window.innerWidth < 500) {
+      setInterval(() => {
+        console.log(section_one_counter)
+        if(section_one_counter == 0) {
+          section_one.style.backgroundPosition = 'center'
+          section_four.style.backgroundPosition = 'center'
+          section_ten.style.backgroundPosition = 'right'
+          section_one_counter = 1
+        } else {
+          section_one.style.backgroundPosition = ''
+          section_four.style.backgroundPosition = ''
+          section_ten.style.backgroundPosition = ''
+          section_one_counter = 0
+        }
+      }, 2000)
+    }
+  </script>
+</body>
+</html>
