@@ -131,7 +131,6 @@ body {
     width: 90%;
   }
 
-  .section-2,
   .section-3,
   .section-5,
   .section-6,
@@ -140,7 +139,9 @@ body {
   .section-12 {
     background-position: center;
   }
-
+  .section-2 {
+    background-position: 60%;
+  }
   .section-8 {
     background-position: right;
   }
